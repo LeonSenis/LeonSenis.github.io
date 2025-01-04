@@ -8,9 +8,13 @@
 </head>
 <body>
 
-    <script src="data.json"></script>
-
-    <script src="script.js"></script>
-    
+    <script> 
+    // test ob das geht weil lokla geht nit :(
+        fetch("JSON.json")
+            .then(response => response.json())
+            .then(data => console.log(data));
+            console.log(JSON.stringify(data));
+        
+            </script>
 </body>
 </html>
